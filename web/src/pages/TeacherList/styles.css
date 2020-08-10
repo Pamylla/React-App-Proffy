@@ -4,48 +4,6 @@
     height: 100vh;
 }
 
-.page-header {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-primary);
-}
-
-.page-header .top-bar-container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--color-text-in-primary);
-    padding: 1.6rem 0;
-}
-
-.page-header .top-bar-container > img {
-    height: 1.6rem;
-}
-
-.page-header .top-bar-container a {
-    height: 3.2rem;
-    transition: opacity 0.2s;
-}
-
-.page-header .top-bar-container a:hover {
-    opacity: 0.6;
-}
-
-.page-header .page-content {
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
-    margin: 3.2rem auto;
-}
-
-.page-header .header-content strong {
-    font: 700 3.6rem Archivo;
-    line-height: 4.2rem;
-    color: var(--color-title-in-primary);
-}
-
 #search-teachers {
     margin-top: 3.2rem;
 }
@@ -76,4 +34,37 @@
 
 #search-teachers .input-block + .input-block {
     margin-top: 1.4rem;
+}
+
+#page-teacher-list main {
+    margin: 3.2rem;
+    width: 90%;
+}
+
+
+@media (min-width: 700px) {
+
+    #page-teacher-list {
+        max-width: 100%;
+    }
+
+    #search-teachers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        columns: 16px;
+        position: absolute;
+        column-gap: 16px;
+        bottom: 10px;
+    }
+
+    #search-teachers .input-block + .input-block {
+        margin-top: 0;
+    }
+
+    #page-teacher-list main {
+        padding: 32px 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+
 }

@@ -28,6 +28,7 @@
     margin: 3.2rem auto;
   }
   .page-header .header-content strong {
+
     font: 700 3.6rem Archivo;
     line-height: 4.2rem;
     color: var(--color-title-in-primary);
@@ -61,6 +62,6 @@
     }
   
     .page-header .header-content strong {
-      max-width: 350px;
+      max-width: 550px;
     }
   }
