@@ -1,3 +1,7 @@
+<video autoplay loop muted playsinline>
+  <source src="mobile/src/assets/images/mobile.mp4">
+</video>
+
 ### 📦 Run API
 
 ```bash
