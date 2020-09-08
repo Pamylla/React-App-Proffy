@@ -57,10 +57,10 @@
     display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer a {
     width: 20rem;
     height: 5.6rem;
-    background: var(--color-secundary);
+    background: var(--color-secondary);
     color: var(--color-button-text);
     border:0;
     border-radius: 0.8rem;
@@ -70,10 +70,11 @@
     align-items: center;
     justify-content: space-evenly;
     transition: all 0.4s ease-out;
+    text-decoration: none;
 }
 
-.teacher-item footer button:hover {
-    background: var(--color-secundary-dark);
+.teacher-item footer a:hover {
+    background: var(--color-secondary-dark);
     transform: translateY(-20px);
 }
 
