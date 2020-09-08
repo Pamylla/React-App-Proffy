@@ -1,7 +1,26 @@
-<video autoplay loop muted playsinline>
-  <source src="mobile/src/assets/images/mobile.mp4">
-</video>
+### Web Screenshot
+<div>
+  <video autoplay loop muted playsinline>
+    <source src="./mobile/src/assets/images/mobile.mp4">
+  </video>
+</div>
 
+### Mobile Screenshot
+<div>
+   <img src="./.github/mobile-splash.png" width="180">
+   <img src="./.github/mobile-onboarding.png" width="180">
+   <img src="./.github/mobile-home.png" width="180">
+   <img src="./.github/mobile-favoritos.png" width="180">
+</div>
+
+* Website to sign up teachers and students.
+* App to connect teachers and students.
+
+# :construction_worker: How to run
+```bash
+# Clone Repository
+$ git clone https://github.com/RafaelGoulartB/Proffy.git
+```
 ### 📦 Run API
 
 ```bash
